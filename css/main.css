@@ -1,0 +1,49 @@
+@import "reset.css";
+
+@font-face {
+ font-family: 'Menoe Grotesque Pro';
+ font-weight: normal;
+
+ src: url(../fonts/Menoe-Grotesque-Pro-Regular.otf)
+ format('opentype');
+}
+
+@font-face {
+ font-family: 'Menoe Grotesque Pro Italic';
+ font-weight: normal;
+
+ src: url(../fonts/Menoe-Grotesque-Pro-Italic.otf)
+ format('opentype');
+}
+
+body {
+  background: #000000;
+  overflow: hidden;
+  font-family: 'Menoe Grotesque Pro';
+  display: flex;
+}
+
+canvas {
+  display: block;
+  /* margin: 0 auto 0 auto; */
+  margin-left: -75vw;
+  
+}
+
+h1 {
+color: #FF00FF;
+font-size: 50px;
+position: absolute;
+left: 5vw;
+top: 5vw;
+}
+
+h2 {
+font-family: 'Menoe Grotesque Pro Italic';
+color: #FF00FF;
+font-size: 80px;
+position: absolute;
+right: 5vw;
+bottom: 5vw;
+
+}
