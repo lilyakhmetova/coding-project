@@ -5,14 +5,14 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  // background(0);
 
   rotateX(frameCount * 0.05);
   rotateY(frameCount * 0.05);
   rotateZ(frameCount * 0.05);
 
   for (let i = 0; i < 40; i++) {
-  createBubble(0, 0, 12 * i + 10, 12 * i + 10, random(0.1, 2), {r: random(mouseX / 3, 255), g: 0, b: random(mouseX / 3, 255), });
+  createBubble(0, 0, 12 * i + 10, 12 * i + 10, random(0.1, 2), {r: random(mouseX / 5, 255), g: 0, b: random(mouseX / 5, 255), });
   }
 }
 
