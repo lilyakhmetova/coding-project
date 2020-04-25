@@ -80,6 +80,13 @@ a:hover {
   display: none;
 }
 
+@media (min-width: 414px) {
+  canvas {
+    margin: 0 auto 0 auto;
+  }
+
+}
+
 @media (min-width: 768px) {
   canvas {
     margin: 0 auto 0 auto;
